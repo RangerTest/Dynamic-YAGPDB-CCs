@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 19/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Messages
+Group: Modules
+*/}}
+ 
+{{ $embed := cembed
+    "title" (joinStr "" "Messages")
+"color" 3247335
+    "description" "`Say <message>\nSend [channel] <message>\nEdit\n<3\nLinkEmbed`"
+}}
+{{ sendMessage nil $embed }}
