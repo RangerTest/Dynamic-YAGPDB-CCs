@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 20/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Edit
+Group: Modules
+*/}}
+
+{{ $embed := cembed
+    "title" (joinStr "" "Messages:Edit")
+"color" 3247335
+    "description" "Edits a message sent by YagPdb.\n\n**Usage:**\n`-Edit [channel] <msgID> <message-context>`\n\n**Examples:**\n`-edit 757675121673633843 Hello`\n`-edit #bot-commands-⦅🤖⦆ what am I doing`\n`-edit 757681659045871707 :blobcathug:`"
+}}
+{{ sendMessage nil $embed }}
