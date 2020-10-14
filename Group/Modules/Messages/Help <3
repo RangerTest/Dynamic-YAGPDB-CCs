@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 20/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help <3
+Group: Modules
+*/}}
+
+{{ $embed := cembed
+    "title" (joinStr "" "Messages:<3")
+"color" 3247335
+    "description" "Sends the emoji; Shibaheartbeat into the channel where triggered.\n\n**Usage:**\n`<3`\n\n**Examples:**\n`<3`\n\n**Aliases:**\n`\\<3`"
+}}
+{{ sendMessage nil $embed }}
