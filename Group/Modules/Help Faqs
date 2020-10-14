@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 19/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Faqs
+Group: Modules
+*/}}
+
+{{ $embed := cembed
+    "title" (joinStr "" "Faqs")
+"color" 3247335
+    "description" "`FaqHelp\nFaqRoles\nFaqOther\nFaqLinks`"
+}}
+{{ sendMessage nil $embed }}
