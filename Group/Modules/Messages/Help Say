@@ -1,0 +1,16 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 19/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Say
+Group: Modules
+*/}}
+
+ 
+{{ $embed := cembed
+    "title" (joinStr "" "Messages:Say")
+"color" 3247335
+    "description" "Get the stupid bot to send a message in the channel the command is triggered in.\n\n**Usage:**\n`-say <message>`\n\n**Examples:**\n`-say Hello`\n`-say I am amazing`\n`-say :blobcathug:`"
+}}
+{{ sendMessage nil $embed }}
