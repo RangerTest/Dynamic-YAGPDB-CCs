@@ -1,0 +1,16 @@
+{{/*
+Created by `@Ranger4297` On Discord. Updated 01/09/20 - dd/mm/yyyy
+
+
+Trigger type: Exact
+Trigger: -Help Modules
+Group: Modules
+*/}}
+
+ 
+{{ $embed := cembed
+    "title" (joinStr "" "Modules")
+"color" 3247335
+    "description" "Messages\nHelpful\nForms\nFaqs\nOther\nStaff"
+}}
+{{ sendMessage nil $embed }}
