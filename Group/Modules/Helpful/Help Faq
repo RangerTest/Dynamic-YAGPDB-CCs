@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 20/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help FaQ
+Group: Modules
+*/}}
+
+{{ $embed := cembed
+    "title" (joinStr "" "Helpful:FaQ")
+"color" 3247335
+    "description" "When the command is triggered it provides a channel link to the FaQ.\n\n**Usage:**\n`-FaQ`"
+}}
+{{ sendMessage nil $embed }}
