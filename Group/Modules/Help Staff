@@ -1,0 +1,12 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 19/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Staff
+Group: Modules
+*/}}
+
+{{if (hasRoleName "Your staff role here")}}
+{{sendMessage nil (cembed "title" "Staff" "color" 3247335 "description" "`Yag\nBan`")}}
+{{end}}
