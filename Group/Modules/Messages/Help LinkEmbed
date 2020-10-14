@@ -1,0 +1,16 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 20/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help LinkEmbed
+Group:Modules
+*/}}
+
+
+{{ $embed := cembed
+    "title" (joinStr "" "Messages:LinkEmbed")
+"color" 3247335
+    "description" "When a message link is sent, it embeds the message content, and provides a link to the message.\n(This message does not make use of a prefix).\n\n**Usage:**\n`Just send a message link from the server.`\n\n**Examples:**\n`https://discord.com/channels/733095307503730688/733095308287934522/757331967330091150`"
+}}
+{{ sendMessage nil $embed }}
