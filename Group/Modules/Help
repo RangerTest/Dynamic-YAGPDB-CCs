@@ -1,0 +1,25 @@
+{{/*
+Created by `@Ranger4297` On Discord. Updated 14/20/20
+
+
+Trigger type: Exact
+Trigger: -Help
+Group: Modules
+*/}}
+
+
+**Web & Control panel**
+<https://yagpdb.xyz/> {{/*Because we have added the operators here, this stops the link from creating an embed*/}.
+
+**My Support Server**
+https://discord.com/invite/4udtcA5 {{/*Support server link for @YAGPDB.xyz#8760*/}}
+
+**Help Command Usage**
+`help [command or module]`
+defo gives help for a command or lists all commands in a module
+
+`help modules`
+lists all my ebic custom command modules
+(*All created by Ranger ofc, totes without help from my support server*) 
+
+{{/*That is a lie*/}}
