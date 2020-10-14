@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 20/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Send
+Group: Modules
+*/}}
+
+{{ $embed := cembed
+    "title" (joinStr "" "Messages:Send")
+"color" 3247335
+    "description" "Gets da bot to send an embed in channel the command is triggered in or in a given channel. Similar to the `simple embed` command.\n\n**Usage:**\n`-Send [channel] <message>`\n\n**Examples:**\n`-send Hello`\n`-send #bot-commands-⦅🤖⦆ what am I doing`\n`-send :blobcathug:`"
+}}
+{{ sendMessage nil $embed }}
