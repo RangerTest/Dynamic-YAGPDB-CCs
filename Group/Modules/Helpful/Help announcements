@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 19/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Announcements
+Group: Modules
+*/}}
+
+{{ $embed := cembed
+    "title" (joinStr "" "Helpful:Announcements")
+"color" 3247335
+    "description" "When the command is triggered it provides a channel link to the community Announcements.\n\n**Usage:**\n`-Announcements`"
+}}
+{{ sendMessage nil $embed }}
