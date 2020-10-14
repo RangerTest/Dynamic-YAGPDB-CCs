@@ -1,0 +1,15 @@
+{{/*
+Created by `@Ranger#4297` On Discord. Updated 19/09/2020
+
+
+Trigger type: Exact
+Trigger: -Help Other
+Group: Modules
+*/}}
+
+{{ $embed := cembed
+    "title" (joinStr "" "Other")
+"color" 3247335
+    "description" "`Decimal\nEmbed`"
+}}
+{{ sendMessage nil $embed }}
